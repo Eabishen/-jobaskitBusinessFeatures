@@ -1,20 +1,25 @@
-
-
 <!DOCTYPE html>
 <html lang="en">
     <head>
-       
         <!-- Required meta tags -->
         <meta charset="utf-8" />
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-        <link rel="icon" type="image/x-icon" href="/images/favicon.png" />
+        <link rel="icon" type="image/x-icon" href="images/favicon.png" />
         <!-- CSS only -->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+            crossorigin="anonymous"
+        />
 
-        <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
-       
+        <link
+            href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css"
+            rel="stylesheet"
+        />
+
         <!-- animation -->
         <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
         <!-- Font -->
@@ -27,19 +32,20 @@
         <!-- css -->
         <link rel="stylesheet" href="css/style.css" />
 
-        <title>Jobaskit's Features</title>
+        <title>AI-Based Hiring Platform|JoBaskit for Business</title>
     </head>
     <body>
         <!-- navBar -->
-        <nav 
+        <nav
+            id="nav"
             class="navbar navbar-expand-lg sticky-top py-3 navbar-light bg-white"
         >
             <div class="container">
-                <a class="navbar-brand" href="#hero">
+                <a class="navbar-brand" href="index.php">
                     <img
                         style="width: 100%"
-                        src="images/logo copy.png"
-                        alt=""
+                        src="/images/logo copy.png"
+                        alt="navbar_logo"
                     />
                 </a>
                 <button
@@ -57,91 +63,63 @@
                     class="collapse navbar-collapse text-center"
                     id="navbarNav"
                 >
-                    <ul class="navbar-nav me-auto">
-                        <li class="nav-item dropdown">
-                            <a
-                                class="nav-link dropdown-toggle"
-                                href="#"
-                                id="navbarDropdown"
-                                role="button"
-                                data-bs-toggle="dropdown"
-                                aria-expanded="false"
-                            >
-                                For Business
-                            </a>
-                            <ul
-                                class="dropdown-menu"
-                                aria-labelledby="navbarDropdown"
-                            >
-                                <li>
-                                    <a class="dropdown-item" href="#"
-                                        >Landing</a
-                                    >
-                                </li>
-                                <li>
-                                    <a class="dropdown-item" href="features.html"
-                                        >Features</a
-                                    >
-                                </li>
-                                <li><hr class="dropdown-divider" /></li>
-                                <li>
-                                    <a class="dropdown-item" href="pricing.html"
-                                        >Pricing</a
-                                    >
-                                </li>
-                                
-                            </ul>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#"
-                                >For Students
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">For Campuses</a>
-                        </li>
-                    </ul>
-
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="#pricing"
+                            <a class="nav-link" href="starttrail.php"
                                 >Sales Enquiry</a
                             >
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#blog">Blog</a>
+                            <a class="nav-link" href="features.php">Features</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#testimonial">Feedback</a>
+                            <a class="nav-link" href="under-construction.php"
+                                >Resource</a
+                            >
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Events</a>
+                            <a
+                                class="btn nav-btn nav-link"
+                                style="
+                                    border: 1px solid #0898e7;
+                                    color: white;
+                                    background-color: #0898e7;
+                                "
+                                href="sign-in.php"
+                                >Sign In</a
+                            >
                         </li>
-                        
                     </ul>
-                    <!-- <a class="btn btn-outline-primary" href="https://hardcore-bohr-658e96.netlify.app/" >Register Now</a> -->
                 </div>
             </div>
-        </nav>      
-        <!-- navBar ends -->    
+        </nav>
+        <!-- navBar ends -->
 
-         <!-- AD section -->
-         <section id="adfeature" class="row vw-100 bg-light">
-            <div class="col-lg-6 col-img " data-aos="zoom-in-right" data-aos-duration="1500">
+        <!-- AD section -->
+        <section id="adfeature" class="row vw-100 bg-light">
+            <div
+                class="col-lg-6 col-img"
+                data-aos="zoom-in-right"
+                data-aos-duration="1500"
+            >
                 <div class="img-div">
-                    <img src="/images/manage.gif" alt="">
+                    <img src="images/manage.gif" alt="Features_logo" />
                 </div>
             </div>
-            <div class="col-lg-6  adfeaturetext">
+            <div class="col-lg-6 adfeaturetext">
                 <div class="conatiner">
                     <div class="row">
-                        <div class="col-md-10 " data-aos="zoom-in-left" data-aos-duration="1500">
-                            
-                            <h1>Get the help When you need!</h1>
+                        <div
+                            class="col-md-10"
+                            data-aos="zoom-in-left"
+                            data-aos-duration="1500"
+                        >
+                            <h1>What's new in Jobaskit</h1>
                             <p>
-                                Lorem ipsum dolor sit amet consectetur,
-                                adipisicing elit. Fugit ducimus ipsa illum in
-                                
+                                Explore and examine how jobaskit works for you
+                                with new ideas and features and help you find
+                                the best job applicants that might bring
+                                accelerated growth for your company.
                             </p>
 
                             <div class="features d-flex mt-2">
@@ -149,11 +127,12 @@
                                     <i class="bx bxs-plane-alt"></i>
                                 </div>
                                 <div>
-                                    <h5>Easy apply</h5>
+                                    <h5>Online assessment task</h5>
                                     <!-- 10 text max -->
                                     <p>
-                                        Lorem ipsum dolor sit amet consectetur
-                                        adipisicing elit. Alias, eius.
+                                        Assessments and quizzes held by jobaskit
+                                        help recruiters to find out the right
+                                        applicants for their job profile.
                                     </p>
                                 </div>
                             </div>
@@ -162,11 +141,12 @@
                                     <i class="bx bxs-ghost"></i>
                                 </div>
                                 <div>
-                                    <h5>Manage everything easily</h5>
+                                    <h5>Unlimited Database</h5>
                                     <!-- 10 text max -->
                                     <p>
-                                        Lorem ipsum dolor sit amet consectetur
-                                        adipisicing elit. Alias, eius.
+                                        Register yourself with jobaskit for
+                                        once, and get unlimited database access
+                                        of candidates for a lifetime.
                                     </p>
                                 </div>
                             </div>
@@ -175,11 +155,12 @@
                                     <i class="bx bxs-check-square"></i>
                                 </div>
                                 <div>
-                                    <h5>Great value</h5>
+                                    <h5>Smart career page</h5>
                                     <!-- 10 text max -->
                                     <p>
-                                        Lorem ipsum dolor sit amet consectetur
-                                        adipisicing elit. Alias, eius.
+                                        Apart from recruiting, jobaskit updates
+                                        your career page itself after
+                                        integrating your career page with us.
                                     </p>
                                 </div>
                             </div>
@@ -190,70 +171,369 @@
         </section>
         <!-- AD end Section -->
 
-
         <!-- Business -->
         <section id="businessfeature">
             <div class="container">
                 <div class="row mb-5">
-                    <div class="col-md-8 mx-auto text-center" data-aos="fade-in">                       
-                       <h1 class="regist-h1">
-                            Empowering your Dreams
+                    <div
+                        class="col-md-8 mx-auto text-center"
+                        data-aos="fade-in"
+                    >
+                        <h1 class="regist-h1">
+                            Unique features to elevate the company’s growth
                         </h1>
-                        <h5>One platform with all the business features and Job offers you need to start, run, and grow your business.</h5>
+                        <h5>
+                            A platform full of authenticated interns and other
+                            extraordinary features like no other might results
+                            in the company’s growth
+                        </h5>
                     </div>
                 </div>
                 <div class="row d-flex featurecont">
-                    <div class="col-lg-6 featureimg pt-md-2" data-aos="zoom-in" data-aos-duration="1500">
-                        <img class="midimg" src="/images/businessjob.png" alt="">
+                    <div
+                        class="col-lg-6 featureimg pt-md-2"
+                        data-aos="zoom-in"
+                        data-aos-duration="1500"
+                    >
+                        <img
+                            class="midimg"
+                            src="images/businessjob.png"
+                            alt="Authentic_real"
+                        />
                     </div>
-                    
-                    <div class="col-lg-6 text-start pt-5" data-aos="slide-left" data-aos-duration="1500">
-                        <h4 class="pt-5">Find Jobs</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil praesentium, fugiat iusto eos voluptatem temporibus tenetur beatae, ab laborum voluptatum dolorem minima nemo magni quaerat illo minus vitae eius expedita.</p>                
-                        <a href="">explore now <span><i class='bx bx-right-arrow-alt'></i></span></a>
+
+                    <div
+                        class="col-lg-6 text-start pt-5"
+                        data-aos="slide-left"
+                        data-aos-duration="1500"
+                    >
+                        <h4 class="pt-5">Unlimited job posting</h4>
+                        <p>
+                            Companies can post jobs or internships as much as
+                            they want without any further charges.
+                        </p>
+                        <a href=""
+                            >Explore now
+                            <span><i class="bx bx-right-arrow-alt"></i></span
+                        ></a>
                     </div>
-                    <hr> 
-                    <div class="col-lg-6 text-start pt-5" data-aos="slide-right" data-aos-duration="1500">
-                        <h4 class="pt-5">Market your business</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil praesentium, fugiat iusto eos voluptatem temporibus tenetur beatae, ab laborum voluptatum dolorem minima nemo magni quaerat illo minus vitae eius expedita.</p>                
-                        <a href="">explore now <span><i class='bx bx-right-arrow-alt'></i></span></a>
+                    <hr />
+                    <div
+                        class="col-lg-6 text-start pt-5"
+                        data-aos="slide-right"
+                        data-aos-duration="1500"
+                    >
+                        <h4 class="pt-5">ATS</h4>
+                        <p>
+                            It has an Application Tracking System (ATS) that
+                            helps in filtering out the best and worthy
+                            candidates with significant data.
+                        </p>
+                        <a href=""
+                            >Explore now
+                            <span><i class="bx bx-right-arrow-alt"></i></span
+                        ></a>
                     </div>
-                    <div class="col-lg-6 featureimg pt-md-5" data-aos="zoom-in" data-aos-duration="1500">
-                        <img class=" midimg" src="/images/accmanage.png" alt="">
+                    <div
+                        class="col-lg-6 featureimg pt-md-5"
+                        data-aos="zoom-in"
+                        data-aos-duration="1500"
+                    >
+                        <img
+                            class="midimg"
+                            src="images/accmanage.png"
+                            alt="ATS"
+                        />
                     </div>
-                    <hr>
-                        <div class="col-lg-6 featureimg pt-md-5" data-aos="zoom-in" data-aos-duration="1500">
-                            <img class="midimg" src="/images/At the office-amico.png" alt="">
-                        </div>
-                        
-                        <div class="col-lg-6 text-start pt-5" data-aos="slide-left" data-aos-duration="1500">
-                            <h4 class="pt-5">Manage everything</h4>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil praesentium, fugiat iusto eos voluptatem temporibus tenetur beatae, ab laborum voluptatum dolorem minima nemo magni quaerat illo minus vitae eius expedita.</p>                
-                            <a href="">explore now <span><i class='bx bx-right-arrow-alt'></i></span></a>    
-                        </div>
-                    <hr> 
-                    <div class="col-lg-6 text-start pt-5" data-aos="slide-right" data-aos-duration="1500">
-                        <h4 class="pt-5">Instant Help from Us</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil praesentium, fugiat iusto eos voluptatem temporibus tenetur beatae, ab laborum voluptatum dolorem minima nemo magni quaerat illo minus vitae eius expedita.</p>                
-                        <a href="">explore now <span><i class='bx bx-right-arrow-alt'></i></span></a>
+                    <hr />
+                    <div
+                        class="col-lg-6 featureimg pt-md-5"
+                        data-aos="zoom-in"
+                        data-aos-duration="1500"
+                    >
+                        <img
+                            class="midimg"
+                            src="images/At the office-amico.png"
+                            alt="Peer_recommend"
+                        />
                     </div>
-                    <div class="col-lg-6 featureimg pt-md-5" data-aos="zoom-in" data-aos-duration="1500">
-                        <img class=" midimg" src="/images/help.png" alt="">
+
+                    <div
+                        class="col-lg-6 text-start pt-5"
+                        data-aos="slide-left"
+                        data-aos-duration="1500"
+                    >
+                        <h4 class="pt-5">Peer Recommended profiles</h4>
+                        <p>
+                            Jobaskit brings you authenticated and recommended
+                            applicants with their post-workplace performance
+                            reviews or feedback.
+                        </p>
+                        <a href=""
+                            >Explore now
+                            <span><i class="bx bx-right-arrow-alt"></i></span
+                        ></a>
                     </div>
-              
-                    
+                    <hr />
+                    <div
+                        class="col-lg-6 text-start pt-5"
+                        data-aos="slide-right"
+                        data-aos-duration="1500"
+                    >
+                        <h4 class="pt-5">Smart Tools for hire</h4>
+                        <p>
+                            It provides you few smart tools by which you can ask
+                            for assessment tasks or can fix telephonic
+                            interviews with interns that will help in the hiring
+                            process of your company.
+                        </p>
+                        <a href=""
+                            >explore now
+                            <span><i class="bx bx-right-arrow-alt"></i></span
+                        ></a>
+                    </div>
+                    <div
+                        class="col-lg-6 featureimg pt-md-5"
+                        data-aos="zoom-in"
+                        data-aos-duration="1500"
+                    >
+                        <img
+                            class="midimg"
+                            src="images/help.png"
+                            alt="Smart_tool"
+                        />
+                    </div>
+                    <hr />
+                    <div
+                        class="col-lg-6 featureimg pt-md-5"
+                        data-aos="zoom-in"
+                        data-aos-duration="1500"
+                    >
+                        <img
+                            class="midimg"
+                            src="images/Exams-rafiki.svg"
+                            alt="Peer_recommend"
+                        />
+                    </div>
+
+                    <div
+                        class="col-lg-6 text-start pt-5"
+                        data-aos="slide-left"
+                        data-aos-duration="1500"
+                    >
+                        <h4 class="pt-5">Quizzes and assessments</h4>
+                        <p>
+                            jobaskit assessments and quizzes help recruiters to
+                            find out the best interns.
+                        </p>
+                        <a href=""
+                            >Explore now
+                            <span><i class="bx bx-right-arrow-alt"></i></span
+                        ></a>
+                    </div>
+                    <hr />
+                    <div
+                        class="col-lg-6 text-start pt-5"
+                        data-aos="slide-right"
+                        data-aos-duration="1500"
+                    >
+                        <h4 class="pt-5">Subscription-based platform</h4>
+                        <p>
+                            Jobaskit recruitment pool is based on the
+                            subscription model as per the company's convenience
+                            especially to help and support start-ups and
+                            small-scale industries.
+                        </p>
+                        <a href=""
+                            >explore now
+                            <span><i class="bx bx-right-arrow-alt"></i></span
+                        ></a>
+                    </div>
+                    <div
+                        class="col-lg-6 featureimg pt-md-5"
+                        data-aos="zoom-in"
+                        data-aos-duration="1500"
+                    >
+                        <img
+                            class="midimg"
+                            src="images/Account-rafiki.svg"
+                            alt="Smart_tool"
+                        />
+                    </div>
                 </div>
-              
             </div>
         </section>
-        <!-- Business End -->   
+        <!-- Business End -->
+
+        <!-- works -->
+        <section id="work" class="mb-3">
+            <div class="container-fluid">
+                <div class="row mb-5">
+                    <div
+                        class="col-md-8 mx-auto text-center"
+                        data-aos="slide-up"
+                        data-aos-duration="1500"
+                    >
+                        <hr />
+
+                        <!-- <h6 class="text-primary">Our Services</h6>
+                        <h1>Making Everyone's Life easy</h1>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing
+                            elit. Fugit ducimus ipsa illum in maxime quis culpa
+                            corrupti dolorum facilis obcaecati!
+                        </p> -->
+                    </div>
+                </div>
+                <div class="row g-5">
+                    <div class="col-lg-4 col-sm-6">
+                        <div
+                            class="project"
+                            data-aos="slide-right"
+                            data-aos-duration="1500"
+                        >
+                            <img src="images/Insert block-rafiki.svg" alt="" />
+                            <div class="overlay">
+                                <div>
+                                    <h4 class="custcolor">Freelancing</h4>
+                                    <h6 class="custcolor">
+                                        With this feature of Jobaskit,
+                                        recruiters can hire freelancers for a
+                                        particular project describing all the
+                                        project details.
+                                    </h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <div
+                            class="project"
+                            data-aos="zoom-in"
+                            data-aos-duration="1500"
+                        >
+                            <img
+                                style="width: 100%"
+                                src="images/Classroom-rafiki.svg"
+                                alt=""
+                            />
+                            <div class="overlay">
+                                <div>
+                                    <h4 class="custcolor">Campus placement</h4>
+                                    <h6 class="custcolor">
+                                        Jobaskit connects campuses with top
+                                        recruited companies and helps in their
+                                        campus placements.
+                                    </h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <div
+                            class="project"
+                            data-aos="slide-left"
+                            data-aos-duration="1500"
+                        >
+                            <img
+                                src="images/International cooperation-pana.svg"
+                                alt=""
+                            />
+                            <div class="overlay">
+                                <div>
+                                    <h4 class="custcolor">
+                                        Publishing jobs across the nation
+                                    </h4>
+                                    <h6 class="custcolor">
+                                        Jobaskit allows you to post unlimited
+                                        jobs and internship publishing across
+                                        the country and provides more
+                                        visibility.
+                                    </h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <div
+                            class="project"
+                            data-aos="slide-left"
+                            data-aos-duration="1500"
+                        >
+                            <img src="images/Together-rafiki.svg" alt="" />
+                            <div class="overlay">
+                                <div>
+                                    <h4 class="custcolor">
+                                        Communicating Personally
+                                    </h4>
+                                    <h6 class="custcolor">
+                                        It also provides personalized account
+                                        managers to keep in touch with customers
+                                        and destroy communication barriers.
+                                    </h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-sm-6">
+                        <div
+                            class="project"
+                            data-aos="slide-left"
+                            data-aos-duration="1500"
+                        >
+                            <img src="images/QA engineers-bro.svg" alt="" />
+                            <div class="overlay">
+                                <div>
+                                    <h4 class="custcolor">
+                                        Quality over quantity
+                                    </h4>
+                                    <h6 class="custcolor">
+                                        Providing verified interns or applicants
+                                        with their past workplace reviews and
+                                        other significant data and eliminating
+                                        fake information.
+                                    </h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <div
+                            class="project"
+                            data-aos="slide-left"
+                            data-aos-duration="1500"
+                        >
+                            <img src="images/Personal site-rafiki.svg" alt="" />
+                            <div class="overlay">
+                                <div>
+                                    <h4 class="custcolor">Personal details</h4>
+                                    <h6 class="custcolor">
+                                        It provides you personal details of the
+                                        interns like contact numbers, email id
+                                        to get connected easily with the best
+                                        interns.
+                                    </h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- works Ends -->
 
         <!-- Footer -->
         <div class="footer-top">
             <div class="container">
                 <div class="row gy-4">
                     <div class="col-md-3">
-                        <img class="logo" src="images/logo copy.png" alt="" />
+                        <img
+                            class="logo"
+                            src="images/logo copy.png"
+                            alt="Footer_logo"
+                        />
                         <div>
                             <a href="https://twitter.com/makosinfotech"
                                 ><i class="footlogo bx bxl-twitter"></i
@@ -316,34 +596,38 @@
         </div>
         <!-- Footer Ends -->
 
-
-        <script src="js/main.js"></script>
+        <!--<script src="js/main.js"></script>-->
+        <script>
+            document.addEventListener("contextmenu", (event) =>
+                event.preventDefault()
+            );
+        </script>
 
         <!-- JavaScript Bundle with Popper -->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-
-       
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+            crossorigin="anonymous"
+        ></script>
 
         <!-- Vanilla tilt js -->
-        <script type="text/javascript" src="js/main.js"></script>
+        <!--<script type="text/javascript" src="js/main.js"></script>-->
 
         <!-- icons -->
 
         <!-- jquery -->
-        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-        
-
+        <script
+            src="https://code.jquery.com/jquery-3.6.0.min.js"
+            integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+            crossorigin="anonymous"
+        ></script>
 
         <!-- AOS animation -->
         <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
         <script>
-          AOS.init({
-            once: true,
-          });
-
+            AOS.init({
+                once: true,
+            });
         </script>
-
-       
-</body>
     </body>
 </html>
